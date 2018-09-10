@@ -115,6 +115,12 @@ header > img {
   margin-top:2em;
 }
 
+iframe {
+  /* Youtube embeds */
+  min-width: 100%;
+  min-height: 28em;
+}
+
 ul.downloads {
   list-style:none;
   height:40px;
