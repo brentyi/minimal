@@ -119,7 +119,7 @@ iframe {
   /* Youtube embeds */
   min-width: 100%;
   min-height: 28em;
-  margin: 1em 0;
+  margin: 0.5em 0 1em 0;
 }
 
 ul.downloads {
@@ -260,18 +260,16 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 480px) {
-  body {
-    padding:15px;
-  }
+body {
+  padding:15px;
+}
 
-  .downloads {
-    width:99%;
-  }
+.downloads {
+  width:99%;
+}
 
-  .downloads li, .downloads li + li + li {
-    width:33%;
-  }
+.downloads li, .downloads li + li + li {
+  width:33%;
 }
 
 @media print {
